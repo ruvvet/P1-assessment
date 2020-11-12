@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text&display=swap');
+
+body {
+  margin: 0 auto;
+  width: 50%;
+  font-family: 'Big Shoulders Inline Text', cursive;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 30% 0 20% 0;
+}
+
+.input {
+  display: inline-flex;
+  justify-content: center;
+}
+
+#output {
+  text-align: center;
+  font-size: 120px;
+}
+
+#inputnum {
+  font-family: 'Big Shoulders Inline Text', cursive;
+  border-radius: 10px;
+  padding: 10 30 0 30;
+  font-size: 50px;
+  text-align: center;
+}
+
+button {
+  font-family: 'Big Shoulders Inline Text', cursive;
+  background-color: #524f4f;
+  color: white;
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+  margin: 0 15px 0 15px;
+  font-size: 50px;
+  border-style: none;
+}
+
+#minus {
+  background-color: #fa4659;
+}
+
+#plus {
+  background-color: #2eb872;
+}
+
+#minus:hover,
+#plus:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  color: #524f4f;
+}
