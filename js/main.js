@@ -9,27 +9,26 @@ function calculate() {
   // set the initial input value at 1
   document.getElementById('inputnum').value = 1;
 
-  // input is the value from the input form
-  let input = parseInt(document.getElementById('inputnum').value);
-
   // function that adds the current output # displayed, and the input num in the form
   function add() {
-    let newnum = output + input;
+    // input is the value from the input form
+    let input = parseInt(document.getElementById('inputnum').value);
     //reassign the new num as the output
-    output = newnum;
+    output += input;
+
     // print it to the page
-    printout();
+    printout(output);
   }
 
   // function that subtracts input num from current output
   function sub() {
-    let newnum = output - input;
-    output = newnum;
-    printout();
+    let input = parseInt(document.getElementById('inputnum').value);
+    output -= input;
+    printout(output);
   }
 
   // in charge of taking the new output value and printing it
-  function printout() {
+  function printout(output) {
     // if its negative, its red
     if (output < 0) {
       document.getElementById('output').style.color = '#FA4659';
