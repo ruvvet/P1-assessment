@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text&display=swap');
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0 auto;
   width: 50%;
   font-family: 'Big Shoulders Inline Text', cursive;
+  color: white;
+
+  background-color: #485461;
+  background: linear-gradient(315deg, #485461 15%, #28313b 74%);
+  background-size: cover;
 }
 .container {
   display: flex;
@@ -57,4 +66,5 @@ button {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
   color: #524f4f;
+
 }

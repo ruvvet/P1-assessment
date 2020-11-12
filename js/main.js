@@ -30,7 +30,7 @@ function calculate() {
       document.getElementById('output').style.color = '#FA4659';
       document.getElementById('output').textContent = `${output}`;
     } else {
-      document.getElementById('output').style.color = '#524f4f';
+      document.getElementById('output').style.color = '#FFFFFF';
       document.getElementById('output').textContent = `${output}`;
     }
   }
